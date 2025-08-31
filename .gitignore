@@ -1,0 +1,92 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Production builds
+build/
+dist/
+out/
+target/
+*.jar
+*.war
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Temporary folders
+tmp/
+temp/
+
+# Generated files
+ops-aws-bright-forest/build/
+ops-aws-bright-forest/dist/
+ops-aws-bright-forest/target/
+ops-aws-bright-forest/.env*
+ops-aws-bright-forest/node_modules/
+backend-nodejs-wild-dusk/build/
+backend-nodejs-wild-dusk/dist/
+backend-nodejs-wild-dusk/target/
+backend-nodejs-wild-dusk/.env*
+backend-nodejs-wild-dusk/node_modules/
+client-react-pure-meadow/build/
+client-react-pure-meadow/dist/
+client-react-pure-meadow/target/
+client-react-pure-meadow/.env*
+client-react-pure-meadow/node_modules/
+docs-readme-quick-dusk/build/
+docs-readme-quick-dusk/dist/
+docs-readme-quick-dusk/target/
+docs-readme-quick-dusk/.env*
+docs-readme-quick-dusk/node_modules/
+
+# Cloud and deployment
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
